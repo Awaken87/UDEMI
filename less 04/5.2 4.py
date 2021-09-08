@@ -4,11 +4,9 @@
 """
 
 l = [20, -5, -7, -3, -8, 4, 9, -1, 5, 7]
-max_l = max(l)
-print('Max: ', max_l)
-
-l.remove(max_l)
-print(l)
-
-l.insert(0, max_l)
-print(l)
+max_i = max(l)
+if max_i == l[0]:
+    print(l)
+else:
+    l.insert(0, max_i)
+    print(l)
