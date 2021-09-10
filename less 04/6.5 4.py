@@ -11,14 +11,37 @@
 """
 
 s = "Эта строка не палиндром"
-s = s.lower()
-s = s.replace(' ', '')
+x = s.lower()
+x = x.replace(' ', '')
+x_rew = x[::-1]
+print('Строка: ', s)
+if x==x_rew:
+    print('Является полиндромом')
+else:
+    print('Не полиндром')
 
-rev_s = s[::-1]
 
-print(s)
-print(rev_s)
 
-print('Палиндром: ', s == rev_s)
+
+
+
+
+
+
+
+
+
+
+
+
+# s = s.lower()
+# s = s.replace(' ', '')
+#
+# rev_s = s[::-1]
+#
+# print(s)
+# print(rev_s)
+#
+# print('Палиндром: ', s == rev_s)
 
 
